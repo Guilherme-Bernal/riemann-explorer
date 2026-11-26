@@ -21,7 +21,7 @@
     "stats": [
       ["1859", "first stated"],
       ["67.2%", "of zeros proven on the line"],
-      ["1 of 7", "Millennium Problems solved"]
+      ["1 + 1", "Millennium Problem solved + 1 proof announced by AI"]
     ]
   },
   "riemann": {
@@ -79,6 +79,7 @@
     "intro": "In 2000, the Clay Mathematics Institute offered US$ 1 million for each. Twenty-six years later, the score is:",
     "solved": "Solved",
     "open": "Open",
+    "claimed": "Proof announced (under review)",
     "items": [
       {
         "name": "Riemann Hypothesis",
@@ -101,7 +102,8 @@
       {
         "name": "Navier-Stokes",
         "solved": false,
-        "summary": "Do the 3D equations of fluid motion always have smooth global solutions, or can they blow up in finite time?",
+        "claimed": true,
+        "summary": "Do the 3D fluid equations always have smooth solutions? In Sep 2026, OpenAI announced a Lean-verified proof that they can blow up in finite time, but in the version with an external force. Experts still debate whether it counts for the prize, and there is a credit dispute with Alpöge and Buckmaster, who proved blowup for Euler (no viscosity).",
         "people": ["Claude-Louis Navier", "George Gabriel Stokes"]
       },
       {
@@ -119,7 +121,7 @@
       {
         "name": "Poincaré Conjecture",
         "solved": true,
-        "summary": "Every closed, simply connected 3D manifold is a 3-sphere. Solved by Perelman in 2002-2003: the only Millennium Problem solved so far, and by a human.",
+        "summary": "Every closed, simply connected 3D manifold is a 3-sphere. Solved by Perelman in 2002-2003: the only Millennium Problem solved and officially recognized so far, and by a human.",
         "people": ["Henri Poincaré", "Grigori Perelman", "Richard Hamilton"]
       }
     ]

@@ -260,12 +260,12 @@ onBeforeUnmount(() => { clearInterval(timer); window.removeEventListener('resize
         <header class="cab"><span class="romano">V</span><h2>{{ t.milenio.title }}</h2></header>
         <p class="intro">{{ t.milenio.intro }}</p>
         <div class="problemas">
-          <article v-for="(m, i) in t.milenio.items" :key="m.name" :class="{ feito: m.solved }">
+          <article v-for="(m, i) in t.milenio.items" :key="m.name" :class="{ feito: m.solved, anunciado: m.claimed }">
             <div class="idx">{{ String(i + 1).padStart(2, '0') }}</div>
             <div>
               <h3>{{ m.name }}</h3>
               <p>{{ m.summary }}</p>
-              <div class="pe"><span class="carimbo">{{ m.solved ? t.milenio.solved : t.milenio.open }}</span><span class="nomes">{{ m.people.join(', ') }}</span></div>
+              <div class="pe"><span class="carimbo">{{ m.solved ? t.milenio.solved : m.claimed ? t.milenio.claimed : t.milenio.open }}</span><span class="nomes">{{ m.people.join(', ') }}</span></div>
             </div>
           </article>
         </div>
@@ -514,6 +514,9 @@ canvas.mapa { height: 560px; }
 .placar span { font-family: var(--mono); font-size: 11px; color: var(--apagado); }
 .nota-rodape { font-size: 15px; font-style: italic; color: var(--apagado); }
 .aviso { font-family: var(--mono); font-size: 13px; color: var(--vermelho); border: 1px solid var(--vermelho); padding: 12px 16px; margin-top: 32px; }
+
+.problemas .anunciado .idx { color: var(--tinta-2); }
+.problemas .anunciado .carimbo { border-style: dashed; border-color: var(--vermelho); color: var(--vermelho); }
 
 footer { padding: 56px 0; font-style: italic; color: var(--apagado); }
 

@@ -21,7 +21,7 @@
     "stats": [
       ["1859", "enunciada"],
       ["67,2%", "dos zeros provados na reta"],
-      ["1 de 7", "Problemas do Milênio resolvidos"]
+      ["1 + 1", "Problema do Milênio resolvido + 1 prova anunciada por IA"]
     ]
   },
   "riemann": {
@@ -79,6 +79,7 @@
     "intro": "Em 2000, o Clay Mathematics Institute ofereceu US$ 1 milhão para cada um. Vinte e seis anos depois, a conta está assim:",
     "solved": "Resolvido",
     "open": "Em aberto",
+    "claimed": "Prova anunciada (em verificação)",
     "items": [
       {
         "name": "Hipótese de Riemann",
@@ -101,7 +102,8 @@
       {
         "name": "Navier-Stokes",
         "solved": false,
-        "summary": "As equações do movimento de fluidos em 3D sempre têm soluções suaves e globais, ou podem explodir em tempo finito?",
+        "claimed": true,
+        "summary": "As equações de fluidos em 3D sempre têm soluções suaves? Em set/2026, a OpenAI anunciou, com prova em Lean, que elas podem explodir em tempo finito, mas na versão com força externa. Especialistas ainda discutem se isso vale para o prêmio, e há disputa de crédito com Alpöge e Buckmaster, que provaram a explosão para Euler (sem viscosidade).",
         "people": ["Claude-Louis Navier", "George Gabriel Stokes"]
       },
       {
@@ -119,7 +121,7 @@
       {
         "name": "Conjectura de Poincaré",
         "solved": true,
-        "summary": "Toda variedade 3D fechada e simplesmente conexa é uma esfera 3D. Resolvida por Perelman em 2002-2003: o único Problema do Milênio resolvido até hoje, e por um humano.",
+        "summary": "Toda variedade 3D fechada e simplesmente conexa é uma esfera 3D. Resolvida por Perelman em 2002-2003: o único Problema do Milênio resolvido e reconhecido oficialmente até hoje, e por um humano.",
         "people": ["Henri Poincaré", "Grigori Perelman", "Richard Hamilton"]
       }
     ]
