@@ -1,0 +1,65 @@
+{
+  "riemann": {
+    "titulo": "Hipótese de Riemann (1859)",
+    "paragrafos": [
+      "Em 1859, Bernhard Riemann publicou um artigo de 8 páginas sobre a quantidade de primos menores que um número dado. Nele, estendeu a função zeta, ζ(s) = Σ 1/n^s, para todo o plano complexo.",
+      "Euler já tinha mostrado que ζ(s) = Π 1/(1 − p^−s) sobre todos os primos p. Ou seja, a zeta carrega dentro dela a informação dos números primos.",
+      "A zeta tem zeros triviais em −2, −4, −6... Os outros, chamados zeros não triviais, ficam na faixa crítica 0 < Re(s) < 1. A hipótese diz que TODOS eles estão na reta crítica Re(s) = 1/2.",
+      "Se for verdade, o erro na contagem de primos é o menor possível, perto de √x·log x. Muitos teoremas da teoria dos números são provados assumindo a hipótese.",
+      "Status em nov/2026: continua ABERTA. É um dos 7 Problemas do Milênio, com prêmio de US$ 1 milhão."
+    ],
+    "historico": [
+      "1914: Hardy prova que infinitos zeros estão na reta crítica.",
+      "1942: Selberg prova que uma proporção positiva dos zeros está na reta.",
+      "1974: Levinson prova que pelo menos 1/3 está na reta.",
+      "1989: Conrey eleva para mais de 40%.",
+      "Antes de 2026, o melhor limite incondicional reportado era cerca de 41,6%."
+    ],
+    "ia": {
+      "titulo": "O avanço do Claude (agosto/2026)",
+      "paragrafos": [
+        "Em 10/08/2026, a Anthropic publicou que uma versão de pesquisa, ainda não lançada, do Claude recebeu o pedido de tentar de verdade a Hipótese de Riemann.",
+        "O modelo não provou a hipótese. Coordenando cerca de 60 subagentes, testando em torno de 650 ideias em um dia e meio, elevou o limite inferior comprovado da fração de zeros na reta crítica de 41,6% para 67,2%.",
+        "O resultado é incondicional (não assume a própria hipótese). Foi formalizado em Lean e revisado por teóricos dos números como Brian Conrey e Dan Goldston.",
+        "O avanço veio de conectar técnicas já publicadas que estavam separadas, entre elas uma adaptação do método de Montgomery feita por Baluyot, Goldston, Suriajaya e Turnage-Butterbaugh.",
+        "Importante: 67,2% não é 100%. A própria Anthropic disse que não espera que essas técnicas levem à prova completa."
+      ]
+    }
+  },
+  "quase": {
+    "titulo": "Hipótese quase-Riemann (outubro/2026)",
+    "paragrafos": [
+      "A hipótese quase-Riemann é uma versão mais fraca da de Riemann. Em vez de exigir que todos os zeros estejam exatamente em Re(s) = 1/2, ela costuma ser formulada como a existência de uma faixa livre de zeros: nenhum zero com Re(s) > 1 − δ, para algum δ > 0 fixo.",
+      "Até 2026, só se sabia que a região livre de zeros encosta em Re(s) = 1 conforme a parte imaginária cresce (regiões do tipo de la Vallée Poussin e Vinogradov-Korobov). Uma faixa de largura fixa seria um salto enorme.",
+      "Em 06/10/2026, a OpenAI anunciou centenas de resultados matemáticos obtidos por um modelo não lançado. Entre eles estava uma demonstração da hipótese quase-Riemann, acompanhada de verificação formal em Lean.",
+      "Segundo a Quanta Magazine, diferente de outras provas feitas por IA, essa foi destrinchada por especialistas humanos, e um matemático chamou as implicações de impressionantes.",
+      "Mesmo assim: quase-Riemann NÃO é Riemann. A hipótese original continua aberta."
+    ]
+  },
+  "milenio": [
+    { "nome": "Hipótese de Riemann", "status": "Aberta (avanços parciais por IA em 2026)", "resumo": "Todos os zeros não triviais da zeta estão em Re(s) = 1/2.", "matematicos": ["Bernhard Riemann"] },
+    { "nome": "P vs NP", "status": "Aberta", "resumo": "Todo problema cuja solução é verificável rapidamente também pode ser resolvido rapidamente? Base da criptografia e da complexidade computacional.", "matematicos": ["Stephen Cook", "Leonid Levin"] },
+    { "nome": "Conjectura de Hodge", "status": "Aberta", "resumo": "Em variedades algébricas projetivas, certas classes de cohomologia (classes de Hodge) são combinações de classes de subvariedades algébricas.", "matematicos": ["W. V. D. Hodge"] },
+    { "nome": "Navier-Stokes", "status": "Aberta", "resumo": "As equações do movimento de fluidos em 3D sempre têm soluções suaves e globais, ou podem explodir em tempo finito?", "matematicos": ["Claude-Louis Navier", "George Gabriel Stokes"] },
+    { "nome": "Yang-Mills e o gap de massa", "status": "Aberta", "resumo": "Construir rigorosamente a teoria quântica de Yang-Mills e provar que a partícula mais leve tem massa positiva.", "matematicos": ["Chen-Ning Yang", "Robert Mills"] },
+    { "nome": "Birch e Swinnerton-Dyer", "status": "Aberta", "resumo": "O posto de uma curva elíptica (quantos pontos racionais independentes ela tem) é dado pela ordem do zero da sua função L em s = 1.", "matematicos": ["Bryan Birch", "Peter Swinnerton-Dyer"] },
+    { "nome": "Conjectura de Poincaré", "status": "RESOLVIDA (Perelman, 2002-2003)", "resumo": "Toda variedade 3D fechada e simplesmente conexa é uma esfera 3D. Único Problema do Milênio resolvido até hoje, e por um humano.", "matematicos": ["Henri Poincaré", "Grigori Perelman", "Richard Hamilton"] }
+  ],
+  "matematicos": [
+    { "nome": "Leonhard Euler", "anos": "1707-1783", "contribuicao": "Produto de Euler: ligou a soma Σ 1/n^s ao produto sobre os primos. É a origem da conexão zeta-primos." },
+    { "nome": "Bernhard Riemann", "anos": "1826-1866", "contribuicao": "Estendeu a zeta ao plano complexo e enunciou a hipótese em 1859, no único artigo que escreveu sobre teoria dos números." },
+    { "nome": "G. H. Hardy", "anos": "1877-1947", "contribuicao": "Em 1914, provou que infinitos zeros estão na reta crítica." },
+    { "nome": "Atle Selberg", "anos": "1917-2007", "contribuicao": "Provou que uma proporção positiva dos zeros está na reta. Medalha Fields em 1950." },
+    { "nome": "Norman Levinson", "anos": "1912-1975", "contribuicao": "Em 1974, criou o método que provou que pelo menos 1/3 dos zeros está na reta." },
+    { "nome": "Hugh Montgomery", "anos": "1944-", "contribuicao": "Conjectura de correlação de pares dos zeros (1973), que revelou a semelhança com autovalores de matrizes aleatórias." },
+    { "nome": "Brian Conrey", "anos": "1955-", "contribuicao": "Em 1989, elevou a proporção para mais de 40%. Revisou o resultado do Claude em 2026." },
+    { "nome": "Daniel Goldston", "anos": "1954-", "contribuicao": "Coautor do teorema GPY sobre pequenos intervalos entre primos e dos trabalhos que o Claude usou em 2026." },
+    { "nome": "Henri Poincaré", "anos": "1854-1912", "contribuicao": "Um dos fundadores da topologia. Propôs a conjectura em 1904." },
+    { "nome": "Grigori Perelman", "anos": "1966-", "contribuicao": "Provou Poincaré usando o fluxo de Ricci de Hamilton. Recusou a Medalha Fields (2006) e o prêmio Clay (2010)." },
+    { "nome": "Stephen Cook e Leonid Levin", "anos": "1939- / 1948-", "contribuicao": "Formularam de forma independente a NP-completude (1971-1973), que deu origem ao problema P vs NP." },
+    { "nome": "W. V. D. Hodge", "anos": "1903-1975", "contribuicao": "Teoria das formas harmônicas em variedades. Dá nome à conjectura." },
+    { "nome": "Navier e Stokes", "anos": "1785-1836 / 1819-1903", "contribuicao": "Deduziram as equações de movimento de fluidos viscosos." },
+    { "nome": "Chen-Ning Yang e Robert Mills", "anos": "1922-2025 / 1927-1999", "contribuicao": "Criaram em 1954 a teoria de gauge não abeliana, base do Modelo Padrão." },
+    { "nome": "Bryan Birch e Peter Swinnerton-Dyer", "anos": "1931- / 1927-2018", "contribuicao": "Formularam a conjectura nos anos 1960, a partir de experimentos numéricos no computador EDSAC em Cambridge." }
+  ]
+}
