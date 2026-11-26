@@ -1,0 +1,220 @@
+{
+  "meta": {"lang": "pt-BR", "title": "ζ · Riemann Explorer", "toggle": "English", "author": "Guilherme Savassa Bernal"},
+  "nav": {
+    "inicio": "Início",
+    "riemann": "A hipótese",
+    "historia": "Um século de avanços",
+    "claude": "Agosto de 2026",
+    "quase": "Quase-Riemann",
+    "milenio": "Os sete problemas",
+    "matematicos": "Quem construiu isso",
+    "lab": "Laboratório Z(t)",
+    "paisagem": "A paisagem da zeta",
+    "primos": "Contando primos",
+    "formula": "A música dos primos"
+  },
+  "capa": {
+    "kicker": "Um caderno sobre números primos, 1859 a 2026",
+    "title1": "Todos os zeros",
+    "title2": "estão na reta",
+    "lead": "Há 167 anos, Bernhard Riemann escreveu uma frase que ninguém conseguiu provar. Em 2026, duas inteligências artificiais chegaram mais perto do que qualquer pessoa. Nenhuma chegou lá.",
+    "stats": [
+      ["1859", "enunciada"],
+      ["67,2%", "dos zeros provados na reta"],
+      ["1 de 7", "Problemas do Milênio resolvidos"]
+    ]
+  },
+  "riemann": {
+    "title": "Hipótese de Riemann (1859)",
+    "paragraphs": [
+      "Em 1859, Bernhard Riemann publicou um artigo de 8 páginas sobre a quantidade de primos menores que um número dado. Nele, estendeu a função zeta, ζ(s) = Σ 1/n^s, para todo o plano complexo.",
+      "Euler já tinha mostrado que ζ(s) = Π 1/(1 − p^−s) sobre todos os primos p. Ou seja, a zeta carrega dentro dela a informação dos números primos.",
+      "A zeta tem zeros triviais em −2, −4, −6... Os outros, chamados zeros não triviais, ficam na faixa crítica 0 < Re(s) < 1. A hipótese diz que TODOS eles estão na reta crítica Re(s) = 1/2.",
+      "Se for verdade, o erro na contagem de primos é o menor possível, perto de √x·log x. Muitos teoremas da teoria dos números são provados assumindo a hipótese.",
+      "Status em nov/2026: continua ABERTA. É um dos 7 Problemas do Milênio, com prêmio de US$ 1 milhão."
+    ],
+    "stripCaption": "A faixa crítica, 0 < Re(s) < 1. Os pontos vermelhos são os dez primeiros zeros não triviais, e todos caem exatamente em Re(s) = ½. A hipótese diz que isso vale para os infinitos zeros.",
+    "stripLabel": "reta crítica",
+    "euler": "O produto de Euler. Do lado esquerdo, todos os inteiros; do lado direito, só os primos. É por essa igualdade que os zeros da zeta contam onde estão os primos.",
+    "eulerSub": "p primo"
+  },
+  "historia": {
+    "title": "Um século empurrando uma porcentagem",
+    "intro": "Provar que 100% dos zeros estão na reta é a hipótese. Enquanto isso não acontece, matemáticos provam frações cada vez maiores.",
+    "infinite": "infinitos, mas proporção desconhecida",
+    "milestones": [
+      {"year": "1914", "who": "Hardy", "text": "Infinitos zeros na reta crítica", "pct": null},
+      {"year": "1942", "who": "Selberg", "text": "Uma proporção positiva, ainda que minúscula", "pct": 1},
+      {"year": "1974", "who": "Levinson", "text": "Pelo menos um terço", "pct": 33.3},
+      {"year": "1989", "who": "Conrey", "text": "Mais de 40%", "pct": 40},
+      {"year": "até 2026", "who": "vários", "text": "Melhor limite incondicional reportado", "pct": 41.6},
+      {"year": "2026", "who": "Claude", "text": "Versão de pesquisa da Anthropic", "pct": 67.2, "ai": true}
+    ]
+  },
+  "claude": {
+    "title": "O avanço do Claude (agosto/2026)",
+    "paragraphs": [
+      "Em 10/08/2026, a Anthropic publicou que uma versão de pesquisa, ainda não lançada, do Claude recebeu o pedido de tentar de verdade a Hipótese de Riemann.",
+      "O modelo não provou a hipótese. Coordenando cerca de 60 subagentes, testando em torno de 650 ideias em um dia e meio, elevou o limite inferior comprovado da fração de zeros na reta crítica de 41,6% para 67,2%.",
+      "O resultado é incondicional (não assume a própria hipótese). Foi formalizado em Lean e revisado por teóricos dos números como Brian Conrey e Dan Goldston.",
+      "O avanço veio de conectar técnicas já publicadas que estavam separadas, entre elas uma adaptação do método de Montgomery feita por Baluyot, Goldston, Suriajaya e Turnage-Butterbaugh.",
+      "Importante: 67,2% não é 100%. A própria Anthropic disse que não espera que essas técnicas levem à prova completa."
+    ],
+    "facts": [["~60", "subagentes"], ["~650", "ideias testadas"], ["1,5", "dia"], ["Lean", "verificação formal"]]
+  },
+  "quase": {
+    "title": "Hipótese quase-Riemann (outubro/2026)",
+    "paragraphs": [
+      "A hipótese quase-Riemann é uma versão mais fraca da de Riemann. Em vez de exigir que todos os zeros estejam exatamente em Re(s) = 1/2, ela costuma ser formulada como a existência de uma faixa livre de zeros: nenhum zero com Re(s) > 1 − δ, para algum δ > 0 fixo.",
+      "Até 2026, só se sabia que a região livre de zeros encosta em Re(s) = 1 conforme a parte imaginária cresce (regiões do tipo de la Vallée Poussin e Vinogradov-Korobov). Uma faixa de largura fixa seria um salto enorme.",
+      "Em 06/10/2026, a OpenAI anunciou centenas de resultados matemáticos obtidos por um modelo não lançado. Entre eles estava uma demonstração da hipótese quase-Riemann, acompanhada de verificação formal em Lean.",
+      "Segundo a Quanta Magazine, diferente de outras provas feitas por IA, essa foi destrinchada por especialistas humanos, e um matemático chamou as implicações de impressionantes.",
+      "Mesmo assim: quase-Riemann NÃO é Riemann. A hipótese original continua aberta."
+    ],
+    "caption": "Riemann exige que todos os zeros fiquem na linha vermelha. A quase-Riemann pede menos: que exista uma faixa de largura fixa δ, perto de Re(s) = 1, sem nenhum zero.",
+    "noZeros": ["sem", "zeros"]
+  },
+  "milenio": {
+    "title": "Os sete Problemas do Milênio",
+    "intro": "Em 2000, o Clay Mathematics Institute ofereceu US$ 1 milhão para cada um. Vinte e seis anos depois, a conta está assim:",
+    "solved": "Resolvido",
+    "open": "Em aberto",
+    "items": [
+      {
+        "name": "Hipótese de Riemann",
+        "solved": false,
+        "summary": "Todos os zeros não triviais da zeta estão em Re(s) = 1/2. Avanços parciais por IA em 2026.",
+        "people": ["Bernhard Riemann"]
+      },
+      {
+        "name": "P vs NP",
+        "solved": false,
+        "summary": "Todo problema cuja solução é verificável rapidamente também pode ser resolvido rapidamente? Base da criptografia e da complexidade computacional.",
+        "people": ["Stephen Cook", "Leonid Levin"]
+      },
+      {
+        "name": "Conjectura de Hodge",
+        "solved": false,
+        "summary": "Em variedades algébricas projetivas, certas classes de cohomologia (classes de Hodge) são combinações de classes de subvariedades algébricas.",
+        "people": ["W. V. D. Hodge"]
+      },
+      {
+        "name": "Navier-Stokes",
+        "solved": false,
+        "summary": "As equações do movimento de fluidos em 3D sempre têm soluções suaves e globais, ou podem explodir em tempo finito?",
+        "people": ["Claude-Louis Navier", "George Gabriel Stokes"]
+      },
+      {
+        "name": "Yang-Mills e o gap de massa",
+        "solved": false,
+        "summary": "Construir rigorosamente a teoria quântica de Yang-Mills e provar que a partícula mais leve tem massa positiva.",
+        "people": ["Chen-Ning Yang", "Robert Mills"]
+      },
+      {
+        "name": "Birch e Swinnerton-Dyer",
+        "solved": false,
+        "summary": "O posto de uma curva elíptica (quantos pontos racionais independentes ela tem) é dado pela ordem do zero da sua função L em s = 1.",
+        "people": ["Bryan Birch", "Peter Swinnerton-Dyer"]
+      },
+      {
+        "name": "Conjectura de Poincaré",
+        "solved": true,
+        "summary": "Toda variedade 3D fechada e simplesmente conexa é uma esfera 3D. Resolvida por Perelman em 2002-2003: o único Problema do Milênio resolvido até hoje, e por um humano.",
+        "people": ["Henri Poincaré", "Grigori Perelman", "Richard Hamilton"]
+      }
+    ]
+  },
+  "matematicos": {
+    "title": "Quem construiu isso",
+    "items": [
+      {
+        "name": "Leonhard Euler",
+        "years": "1707-1783",
+        "text": "Produto de Euler: ligou a soma Σ 1/n^s ao produto sobre os primos. É a origem da conexão zeta-primos."
+      },
+      {
+        "name": "Bernhard Riemann",
+        "years": "1826-1866",
+        "text": "Estendeu a zeta ao plano complexo e enunciou a hipótese em 1859, no único artigo que escreveu sobre teoria dos números."
+      },
+      {"name": "G. H. Hardy", "years": "1877-1947", "text": "Em 1914, provou que infinitos zeros estão na reta crítica."},
+      {"name": "Atle Selberg", "years": "1917-2007", "text": "Provou que uma proporção positiva dos zeros está na reta. Medalha Fields em 1950."},
+      {"name": "Norman Levinson", "years": "1912-1975", "text": "Em 1974, criou o método que provou que pelo menos 1/3 dos zeros está na reta."},
+      {
+        "name": "Hugh Montgomery",
+        "years": "1944-",
+        "text": "Conjectura de correlação de pares dos zeros (1973), que revelou a semelhança com autovalores de matrizes aleatórias."
+      },
+      {"name": "Brian Conrey", "years": "1955-", "text": "Em 1989, elevou a proporção para mais de 40%. Revisou o resultado do Claude em 2026."},
+      {
+        "name": "Daniel Goldston",
+        "years": "1954-",
+        "text": "Coautor do teorema GPY sobre pequenos intervalos entre primos e dos trabalhos que o Claude usou em 2026."
+      },
+      {"name": "Henri Poincaré", "years": "1854-1912", "text": "Um dos fundadores da topologia. Propôs a conjectura em 1904."},
+      {
+        "name": "Grigori Perelman",
+        "years": "1966-",
+        "text": "Provou Poincaré usando o fluxo de Ricci de Hamilton. Recusou a Medalha Fields (2006) e o prêmio Clay (2010)."
+      },
+      {
+        "name": "Stephen Cook e Leonid Levin",
+        "years": "1939- / 1948-",
+        "text": "Formularam de forma independente a NP-completude (1971-1973), que deu origem ao problema P vs NP."
+      },
+      {"name": "W. V. D. Hodge", "years": "1903-1975", "text": "Teoria das formas harmônicas em variedades. Dá nome à conjectura."},
+      {"name": "Navier e Stokes", "years": "1785-1836 / 1819-1903", "text": "Deduziram as equações de movimento de fluidos viscosos."},
+      {
+        "name": "Chen-Ning Yang e Robert Mills",
+        "years": "1922-2025 / 1927-1999",
+        "text": "Criaram em 1954 a teoria de gauge não abeliana, base do Modelo Padrão."
+      },
+      {
+        "name": "Bryan Birch e Peter Swinnerton-Dyer",
+        "years": "1931- / 1927-2018",
+        "text": "Formularam a conjectura nos anos 1960, a partir de experimentos numéricos no computador EDSAC em Cambridge."
+      }
+    ]
+  },
+  "lab": {
+    "title": "Laboratório: encontrando zeros em Rust",
+    "intro": "A função Z(t) de Riemann-Siegel é real e tem o mesmo módulo de ζ(½ + it). Cada vez que ela cruza o eixo, há um zero da zeta na reta crítica. O Rust desenha a curva com Riemann-Siegel e refina cada zero com a somatória de Euler-Maclaurin.",
+    "range": "Calcular de t = 10 até",
+    "computing": "calculando…",
+    "zerosWord": "zeros",
+    "cols": ["n", "calculado", "valor conhecido", "erro"],
+    "check": "Conferência de Riemann-von Mangoldt",
+    "checkText": "A fórmula N(T) ≈ θ(T)/π + 1 diz quantos zeros devem existir até T. Se a contagem bater (a diferença vem só do termo pequeno S(T)), nenhum zero ficou para trás.",
+    "found": "encontrados",
+    "expected": "esperados",
+    "note": "Precisão: erro menor que 10⁻¹⁰ nos zeros. Os valores conhecidos vêm das tabelas de Andrew Odlyzko.",
+    "engine": {
+      "wasm": "calculado no seu navegador (Rust → WebAssembly)",
+      "api": "calculado pela API Rust local",
+      "none": "motor de cálculo indisponível"
+    }
+  },
+  "paisagem": {
+    "title": "A paisagem da zeta",
+    "intro": "Cada pixel é o valor de |ζ(s)| num ponto do plano complexo, em escala logarítmica. Escuro é perto de zero. Os pontos pretos são os zeros, e todos caem na coluna marcada por ½. Na coluna Re(s) = 1, a zeta nunca zera: esse fato é equivalente ao Teorema dos Números Primos.",
+    "axisT": "t (parte imaginária)",
+    "axisS": "σ (parte real)"
+  },
+  "primos": {
+    "title": "Contando primos",
+    "intro": "π(x) conta os primos até x. Gauss chutou que ele cresce como li(x), e Riemann melhorou com R(x). As curvas são tão próximas que o gráfico mostra o erro de cada uma. As linhas pontilhadas são o limite de Schoenfeld (1976): se a Hipótese de Riemann for verdadeira, |π(x) − li(x)| fica abaixo de √x·ln x / 8π para todo x ≥ 2657.",
+    "range": "Até x =",
+    "legend": {"li": "li(x) − π(x)", "r": "R(x) − π(x)", "bound": "± √x·ln x / 8π (limite sob RH)"},
+    "tableCols": ["x", "π(x)", "li(x) − π(x)", "R(x) − π(x)"]
+  },
+  "formula": {
+    "title": "A música dos primos",
+    "intro": "Essa é a ideia central de Riemann. A função ψ(x) sobe em degraus, um em cada primo (e em cada potência de primo). A fórmula explícita reconstrói esses degraus somando ondas, uma para cada zero da zeta. Com poucos zeros, a curva é suave. Somando mais, os degraus aparecem exatamente onde estão os primos.",
+    "zerosUsed": "Zeros usados",
+    "xMax": "x até",
+    "play": "Animar",
+    "pause": "Pausar",
+    "legend": {"real": "ψ(x) real", "approx": "aproximação pelos zeros"}
+  },
+  "footer": "A Hipótese de Riemann continua em aberto. Os resultados de 2026 são avanços parciais, verificados por especialistas e por prova formal."
+}

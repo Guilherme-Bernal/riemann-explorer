@@ -1,0 +1,224 @@
+{
+  "meta": {"lang": "en", "title": "ζ · Riemann Explorer", "toggle": "Português", "author": "Guilherme Savassa Bernal"},
+  "nav": {
+    "inicio": "Start",
+    "riemann": "The hypothesis",
+    "historia": "A century of progress",
+    "claude": "August 2026",
+    "quase": "Quasi-Riemann",
+    "milenio": "The seven problems",
+    "matematicos": "Who built this",
+    "lab": "Z(t) laboratory",
+    "paisagem": "The zeta landscape",
+    "primos": "Counting primes",
+    "formula": "The music of the primes"
+  },
+  "capa": {
+    "kicker": "A notebook on prime numbers, 1859 to 2026",
+    "title1": "Are all the zeros",
+    "title2": "on the line",
+    "lead": "167 years ago, Bernhard Riemann wrote a sentence nobody has been able to prove. In 2026, two artificial intelligences got closer than anyone before. Neither got there.",
+    "stats": [
+      ["1859", "first stated"],
+      ["67.2%", "of zeros proven on the line"],
+      ["1 of 7", "Millennium Problems solved"]
+    ]
+  },
+  "riemann": {
+    "title": "The Riemann Hypothesis (1859)",
+    "paragraphs": [
+      "In 1859, Bernhard Riemann published an 8-page paper on the number of primes below a given size. In it, he extended the zeta function, ζ(s) = Σ 1/n^s, to the whole complex plane.",
+      "Euler had already shown that ζ(s) = Π 1/(1 − p^−s) over all primes p. In other words, the zeta function carries the primes inside it.",
+      "Zeta has trivial zeros at −2, −4, −6... The others, called nontrivial zeros, lie in the critical strip 0 < Re(s) < 1. The hypothesis says ALL of them lie on the critical line Re(s) = 1/2.",
+      "If true, the error in counting primes is as small as it can be, close to √x·log x. Many theorems in number theory are proved by assuming the hypothesis.",
+      "Status in Nov 2026: still OPEN. It is one of the 7 Millennium Prize Problems, with a US$ 1 million prize."
+    ],
+    "stripCaption": "The critical strip, 0 < Re(s) < 1. The red dots are the first ten nontrivial zeros, and all of them fall exactly on Re(s) = ½. The hypothesis says this holds for all infinitely many zeros.",
+    "stripLabel": "critical line",
+    "euler": "The Euler product. On the left, every integer; on the right, only the primes. This identity is why the zeros of zeta tell us where the primes are.",
+    "eulerSub": "p prime"
+  },
+  "historia": {
+    "title": "A century pushing a percentage",
+    "intro": "Proving that 100% of the zeros are on the line is the hypothesis. Until that happens, mathematicians prove ever larger fractions.",
+    "infinite": "infinitely many, proportion unknown",
+    "milestones": [
+      {"year": "1914", "who": "Hardy", "text": "Infinitely many zeros on the critical line", "pct": null},
+      {"year": "1942", "who": "Selberg", "text": "A positive proportion, however tiny", "pct": 1},
+      {"year": "1974", "who": "Levinson", "text": "At least one third", "pct": 33.3},
+      {"year": "1989", "who": "Conrey", "text": "More than 40%", "pct": 40},
+      {"year": "before 2026", "who": "several", "text": "Best reported unconditional bound", "pct": 41.6},
+      {"year": "2026", "who": "Claude", "text": "Anthropic research version", "pct": 67.2, "ai": true}
+    ]
+  },
+  "claude": {
+    "title": "Claude's breakthrough (August 2026)",
+    "paragraphs": [
+      "On Aug 10, 2026, Anthropic reported that an unreleased research version of Claude had been asked to take a real stab at the Riemann Hypothesis.",
+      "The model did not prove the hypothesis. Coordinating about 60 subagents and testing around 650 ideas in a day and a half, it raised the proven lower bound for the fraction of zeros on the critical line from 41.6% to 67.2%.",
+      "The result is unconditional (it does not assume the hypothesis itself). It was formalized in Lean and reviewed by number theorists including Brian Conrey and Dan Goldston.",
+      "The advance came from connecting published techniques that had stayed separate, including an adaptation of Montgomery's method by Baluyot, Goldston, Suriajaya and Turnage-Butterbaugh.",
+      "Important: 67.2% is not 100%. Anthropic itself said it does not expect these techniques to lead to a full proof."
+    ],
+    "facts": [["~60", "subagents"], ["~650", "ideas tested"], ["1.5", "days"], ["Lean", "formal verification"]]
+  },
+  "quase": {
+    "title": "The quasi-Riemann hypothesis (October 2026)",
+    "paragraphs": [
+      "The quasi-Riemann hypothesis is a weaker version of Riemann's. Instead of requiring every zero to sit exactly on Re(s) = 1/2, it is usually stated as a zero-free strip: no zeros with Re(s) > 1 − δ, for some fixed δ > 0.",
+      "Before 2026, it was only known that the zero-free region shrinks toward Re(s) = 1 as the imaginary part grows (de la Vallée Poussin and Vinogradov-Korobov type regions). A strip of fixed width would be a huge leap.",
+      "On Oct 6, 2026, OpenAI announced hundreds of mathematical results produced by an unreleased model. Among them was a proof of the quasi-Riemann hypothesis, with formal verification in Lean.",
+      "According to Quanta Magazine, unlike other AI proofs, this one has been unpacked by human experts, and one mathematician called the implications staggering.",
+      "Still: quasi-Riemann is NOT Riemann. The original hypothesis remains open."
+    ],
+    "caption": "Riemann requires every zero to sit on the red line. Quasi-Riemann asks for less: a strip of fixed width δ, near Re(s) = 1, with no zeros at all.",
+    "noZeros": ["no", "zeros"]
+  },
+  "milenio": {
+    "title": "The seven Millennium Prize Problems",
+    "intro": "In 2000, the Clay Mathematics Institute offered US$ 1 million for each. Twenty-six years later, the score is:",
+    "solved": "Solved",
+    "open": "Open",
+    "items": [
+      {
+        "name": "Riemann Hypothesis",
+        "solved": false,
+        "summary": "All nontrivial zeros of zeta lie on Re(s) = 1/2. Partial progress by AI in 2026.",
+        "people": ["Bernhard Riemann"]
+      },
+      {
+        "name": "P vs NP",
+        "solved": false,
+        "summary": "Can every problem whose solution is quick to check also be solved quickly? The foundation of cryptography and computational complexity.",
+        "people": ["Stephen Cook", "Leonid Levin"]
+      },
+      {
+        "name": "Hodge Conjecture",
+        "solved": false,
+        "summary": "On projective algebraic varieties, certain cohomology classes (Hodge classes) are combinations of classes of algebraic subvarieties.",
+        "people": ["W. V. D. Hodge"]
+      },
+      {
+        "name": "Navier-Stokes",
+        "solved": false,
+        "summary": "Do the 3D equations of fluid motion always have smooth global solutions, or can they blow up in finite time?",
+        "people": ["Claude-Louis Navier", "George Gabriel Stokes"]
+      },
+      {
+        "name": "Yang-Mills and the mass gap",
+        "solved": false,
+        "summary": "Rigorously construct quantum Yang-Mills theory and prove that the lightest particle has positive mass.",
+        "people": ["Chen-Ning Yang", "Robert Mills"]
+      },
+      {
+        "name": "Birch and Swinnerton-Dyer",
+        "solved": false,
+        "summary": "The rank of an elliptic curve (how many independent rational points it has) equals the order of the zero of its L-function at s = 1.",
+        "people": ["Bryan Birch", "Peter Swinnerton-Dyer"]
+      },
+      {
+        "name": "Poincaré Conjecture",
+        "solved": true,
+        "summary": "Every closed, simply connected 3D manifold is a 3-sphere. Solved by Perelman in 2002-2003: the only Millennium Problem solved so far, and by a human.",
+        "people": ["Henri Poincaré", "Grigori Perelman", "Richard Hamilton"]
+      }
+    ]
+  },
+  "matematicos": {
+    "title": "Who built this",
+    "items": [
+      {
+        "name": "Leonhard Euler",
+        "years": "1707-1783",
+        "text": "The Euler product: tied the sum Σ 1/n^s to a product over the primes. The origin of the zeta-primes connection."
+      },
+      {
+        "name": "Bernhard Riemann",
+        "years": "1826-1866",
+        "text": "Extended zeta to the complex plane and stated the hypothesis in 1859, in the only paper he wrote on number theory."
+      },
+      {"name": "G. H. Hardy", "years": "1877-1947", "text": "In 1914, proved that infinitely many zeros lie on the critical line."},
+      {
+        "name": "Atle Selberg",
+        "years": "1917-2007",
+        "text": "Proved that a positive proportion of zeros lies on the line. Fields Medal in 1950."
+      },
+      {
+        "name": "Norman Levinson",
+        "years": "1912-1975",
+        "text": "In 1974, created the method that proved at least 1/3 of the zeros lie on the line."
+      },
+      {
+        "name": "Hugh Montgomery",
+        "years": "1944-",
+        "text": "Pair correlation conjecture for the zeros (1973), which revealed the resemblance to eigenvalues of random matrices."
+      },
+      {"name": "Brian Conrey", "years": "1955-", "text": "In 1989, raised the proportion to more than 40%. Reviewed Claude's result in 2026."},
+      {
+        "name": "Daniel Goldston",
+        "years": "1954-",
+        "text": "Co-author of the GPY theorem on small gaps between primes and of the work Claude built on in 2026."
+      },
+      {"name": "Henri Poincaré", "years": "1854-1912", "text": "One of the founders of topology. Proposed the conjecture in 1904."},
+      {
+        "name": "Grigori Perelman",
+        "years": "1966-",
+        "text": "Proved Poincaré using Hamilton's Ricci flow. Declined the Fields Medal (2006) and the Clay prize (2010)."
+      },
+      {
+        "name": "Stephen Cook and Leonid Levin",
+        "years": "1939- / 1948-",
+        "text": "Independently formulated NP-completeness (1971-1973), which gave rise to the P vs NP problem."
+      },
+      {"name": "W. V. D. Hodge", "years": "1903-1975", "text": "Theory of harmonic forms on manifolds. The conjecture bears his name."},
+      {"name": "Navier and Stokes", "years": "1785-1836 / 1819-1903", "text": "Derived the equations of motion of viscous fluids."},
+      {
+        "name": "Chen-Ning Yang and Robert Mills",
+        "years": "1922-2025 / 1927-1999",
+        "text": "Created non-abelian gauge theory in 1954, the basis of the Standard Model."
+      },
+      {
+        "name": "Bryan Birch and Peter Swinnerton-Dyer",
+        "years": "1931- / 1927-2018",
+        "text": "Formulated the conjecture in the 1960s from numerical experiments on the EDSAC computer in Cambridge."
+      }
+    ]
+  },
+  "lab": {
+    "title": "Laboratory: finding zeros in Rust",
+    "intro": "The Riemann-Siegel function Z(t) is real and has the same absolute value as ζ(½ + it). Every time it crosses the axis, there is a zero of zeta on the critical line. Rust draws the curve with Riemann-Siegel and refines each zero with Euler-Maclaurin summation.",
+    "range": "Compute from t = 10 to",
+    "computing": "computing…",
+    "zerosWord": "zeros",
+    "cols": ["n", "computed", "known value", "error"],
+    "check": "Riemann-von Mangoldt check",
+    "checkText": "The formula N(T) ≈ θ(T)/π + 1 says how many zeros should exist up to T. If the count matches (the gap only comes from the small term S(T)), no zero was missed.",
+    "found": "found",
+    "expected": "expected",
+    "note": "Precision: error below 10⁻¹⁰ on the zeros. Known values come from Andrew Odlyzko's tables.",
+    "engine": {"wasm": "computed in your browser (Rust → WebAssembly)", "api": "computed by the local Rust API", "none": "compute engine unavailable"}
+  },
+  "paisagem": {
+    "title": "The zeta landscape",
+    "intro": "Each pixel is the value of |ζ(s)| at a point of the complex plane, on a log scale. Dark means close to zero. The black dots are the zeros, and they all fall on the column marked ½. On the column Re(s) = 1, zeta never vanishes: that fact is equivalent to the Prime Number Theorem.",
+    "axisT": "t (imaginary part)",
+    "axisS": "σ (real part)"
+  },
+  "primos": {
+    "title": "Counting primes",
+    "intro": "π(x) counts the primes up to x. Gauss guessed it grows like li(x), and Riemann improved it with R(x). The curves are so close that the chart shows each one's error. The dotted lines are Schoenfeld's bound (1976): if the Riemann Hypothesis is true, |π(x) − li(x)| stays below √x·ln x / 8π for every x ≥ 2657.",
+    "range": "Up to x =",
+    "legend": {"li": "li(x) − π(x)", "r": "R(x) − π(x)", "bound": "± √x·ln x / 8π (bound under RH)"},
+    "tableCols": ["x", "π(x)", "li(x) − π(x)", "R(x) − π(x)"]
+  },
+  "formula": {
+    "title": "The music of the primes",
+    "intro": "This is Riemann's central idea. The function ψ(x) climbs in steps, one at each prime (and each prime power). The explicit formula rebuilds those steps by adding waves, one for each zero of zeta. With few zeros, the curve is smooth. Add more, and the steps appear exactly where the primes are.",
+    "zerosUsed": "Zeros used",
+    "xMax": "x up to",
+    "play": "Animate",
+    "pause": "Pause",
+    "legend": {"real": "actual ψ(x)", "approx": "approximation from the zeros"}
+  },
+  "footer": "The Riemann Hypothesis remains open. The 2026 results are partial advances, checked by experts and by formal proof."
+}
