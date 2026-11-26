@@ -9,8 +9,6 @@ Um caderno interativo sobre a Hipótese de Riemann, os resultados de IA em 2026 
 
 **No ar:** https://Guilherme-Bernal.github.io/riemann-explorer/
 
-![Riemann Explorer](docs/preview.png)
-
 > A Hipótese de Riemann continua em aberto. Os resultados de 2026 são avanços parciais.
 
 ## O que ele calcula
@@ -22,8 +20,6 @@ Um caderno interativo sobre a Hipótese de Riemann, os resultados de IA em 2026 
 | Paisagem da zeta | log₁₀ \|ζ(s)\| no plano complexo | Somatória de Euler-Maclaurin com termos de Bernoulli |
 | Contando primos | π(x), li(x), R(x) e o limite de Schoenfeld | Crivo de Eratóstenes, série de Ramanujan, série de Gram |
 | A música dos primos | Fórmula explícita de ψ(x) a partir dos zeros | Soma sobre os zeros da zeta |
-
-![Animação da fórmula explícita](docs/demo.gif)
 
 ## Estrutura
 

@@ -9,8 +9,6 @@ An interactive notebook on the Riemann Hypothesis, the AI results of 2026 (Claud
 
 **Live:** https://Guilherme-Bernal.github.io/riemann-explorer/
 
-![Riemann Explorer](docs/preview.png)
-
 > The Riemann Hypothesis is still open. The 2026 results are partial advances.
 
 ## What it computes
@@ -22,8 +20,6 @@ An interactive notebook on the Riemann Hypothesis, the AI results of 2026 (Claud
 | Zeta landscape | log₁₀ \|ζ(s)\| on the complex plane | Euler-Maclaurin summation with Bernoulli terms |
 | Counting primes | π(x), li(x), R(x) and Schoenfeld's bound | Sieve of Eratosthenes, Ramanujan series, Gram series |
 | Music of the primes | Explicit formula for ψ(x) from the zeros | Sum over zeta zeros |
-
-![Explicit formula animation](docs/demo.gif)
 
 ## Structure
 
